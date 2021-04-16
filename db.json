@@ -1,0 +1,100 @@
+{
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Calabresa"
+        },
+        {
+            "id": 2,
+            "name": "Quejo"
+        },
+        {
+            "id": 3,
+            "name": "Bacon"
+        },
+        {
+            "id": 4,
+            "name": "Frango"
+        }
+    ],
+    "pizzas": [
+        {
+            "id": 1,
+            "title": "Pizza de Calabresa",
+            "description": "Uma deliciosa pizza com calabresas fatiadas e muita cebola.",
+            "image": "./assets/images/demo/pizzas/calabresa.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 2,
+            "title": "Pizza de Calabresa com bacon",
+            "description": "Uma deliciosa pizza com calabresas fatiadas, pedaços de bacon e muita cebola.",
+            "image": "./assets/images/demo/pizzas/calabresa-c-bacon.webp",
+            "price": 25.99
+          },
+          {
+            "id": 3,
+            "title": "Pizza de Bauru",
+            "description": "Uma deliciosa pizza de bauru com fatias de tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/bauru.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 4,
+            "title": "Pizza de Brócolis",
+            "description": "Uma deliciosa pizza de brócolis com queijo, fatias de tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/brocolis.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 5,
+            "title": "Pizza de Calabresa com catupiry",
+            "description": "Uma deliciosa pizza de calabresa com catupiry, tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/calabresa-c-catupiry.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 6,
+            "title": "Pizza de Frango",
+            "description": "Uma deliciosa pizza de frango com tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/frango.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 7,
+            "title": "Pizza de Frango com catupiry",
+            "description": "Uma deliciosa pizza de frango com catupiry, tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/frango-c-catupiry.jpg",
+            "price": 25.99
+          },
+          {
+            "id": 8,
+            "title": "Pizza de Milho com bacon",
+            "description": "Uma deliciosa pizza de milho com bacon, tomate e pedaços de azeitona.",
+            "image": "./assets/images/demo/pizzas/milho-c-bacon.jpg",
+            "price": 25.99
+          }
+    ],
+    "pizza-ingredients": [
+        {
+            "pizzaId": 1,
+            "ingredientId": 1
+        },
+        {
+            "pizzaId": 1,
+            "ingredientId": 2
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 1
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 2
+        },
+        {
+            "pizzaId": 2,
+            "ingredientId": 3
+        }
+    ]
+}
